@@ -80,7 +80,7 @@ body {
   color: #2c3e50;
   text-align: center;
   padding-top: 7rem;
-  padding-bottom: 9rem;
+  padding-bottom: 5.5rem;
 }
 
 .portfolio h1{
@@ -93,6 +93,30 @@ body {
   margin-bottom: 4rem;
   border-radius: 1rem;
 }
+/* ******************************************************************* */
+/* ************************** ABOUT *************************+ */
+/* ******************************************************************* */
+.about{
+  background-color: #1abc9c;
+  color: white;
+  text-align: center;
+  padding-top: 7rem;
+  padding-bottom: 9rem;
+}
+.about h1{
+  font-size: 4.5rem;
+}
+
+.about p{
+  text-align: left;
+  font-size: 1.9rem;
+}
+
+.about button {
+  color: white;
+  background-color: #1abc9c;
+  margin-top: 2.5rem;
+}
 
 /* ************************************************************ */
 /********************** AGGIUNTA DI MEDIAQUERY ******************/
@@ -102,7 +126,8 @@ body {
     font-size: 4.4rem;
   }
 
-  .portfolio h1{
+  .portfolio h1,
+  .about h1{
     font-size: 3.5rem;
   }
 
@@ -112,7 +137,8 @@ body {
     font-size: 4.4rem;
   }
 
-  .portfolio h1{
+  .portfolio h1,
+  .about h1 {
     font-size: 3.5rem;
   }
 
