@@ -45,30 +45,30 @@ body {
   padding-top: 104px;
   font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
-h1, h2, li {
+h1, h2, h4, li {
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
 }
 .divisore{
-  margin-top: 2rem;
-  margin-bottom: 3.5rem;
+  margin-top: 2.0rem;
+  margin-bottom: 3.3rem;
 }
 
 .lineaDivisioneBianca{
   display: inline-block;
-  width: 10rem;
+  width: 11.2rem;
   margin-bottom: 0.9rem;
-  margin-left: 0.9rem;
-  margin-right: 0.9rem;
+  margin-left: 1.4rem;
+  margin-right: 1.4rem;
   border-radius: 6px;
   border-bottom: white 0.4rem solid;
 }
 
 .lineaDivisioneScura{
   display: inline-block;
-  width: 10rem;
+  width: 11.2rem;
   margin-bottom: 0.9rem;
-  margin-left: 0.9rem;
-  margin-right: 0.9rem;
+  margin-left: 1.4rem;
+  margin-right: 1.4rem;
   border-radius: 6px;
   border-bottom: #2c3e50 0.4rem solid;
 }
@@ -86,8 +86,8 @@ h1, h2, li {
   /* debug */
   /* margin-top: 55px; */
   /* fine debug */
-  padding-top: 9.5rem;
-  padding-bottom: 9rem;
+  padding-top: 9.6rem;
+  padding-bottom: 8.7rem;
 }
 
 .startBootstrap h1{
@@ -96,12 +96,12 @@ h1, h2, li {
 
 .startBootstrap img {
   margin: auto;
-  padding-bottom: 1.9rem;
+  padding-bottom: 2.1rem;
   width: 24rem;
 }
 
 .startBootstrap p {
-  font-size: 2.3rem;
+  font-size: 2.4rem;
 }
 /* ******************************************************************* */
 /* ************************** PORTFOLIO *************************+ */
@@ -115,7 +115,7 @@ h1, h2, li {
 }
 
 #portfolio h1{
-  font-size: 4.5rem;
+  font-size: 4.8rem;
 }
 
 #portfolio img {
@@ -132,10 +132,10 @@ h1, h2, li {
   color: white;
   text-align: center;
   padding-top: 8rem;
-  padding-bottom: 10rem;
+  padding-bottom: 9.8rem;
 }
 #about h1{
-  font-size: 4.5rem;
+  font-size: 4.8rem;
 }
 
 #about p{
@@ -144,11 +144,19 @@ h1, h2, li {
 }
 
 #about button {
-  color: white;
+  color: #f8f9fa;
   background-color: #1abc9c;
   margin-top: 2.5rem;
-  border: 2px solid white;
-  padding: 20px 35px;
+  font-size: 2rem;
+  border: 2px solid #f8f9fa;
+  border-radius: 6px;
+  padding: 18px 28px;
+}
+
+#about button:hover {
+  color: #212529;
+  border-color: #f8f9fa;
+  background-color: #f8f9fa;
 }
 
 /* ******************************************************************* */
