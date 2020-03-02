@@ -1,0 +1,123 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* ******************************************************************* */
+/* ************************** ROBE GENERALI *************************+ */
+/* ******************************************************************* */
+body {
+  padding-top: 50px;
+}
+
+.divisore{
+  margin-top: 2rem;
+  margin-bottom: 3.5rem;
+}
+
+.lineaDivisioneBianca{
+  display: inline-block;
+  width: 10rem;
+  margin-bottom: 0.9rem;
+  margin-left: 0.9rem;
+  margin-right: 0.9rem;
+  border-radius: 6px;
+  border-bottom: white 0.35rem solid;
+}
+
+.lineaDivisioneScura{
+  display: inline-block;
+  width: 10rem;
+  margin-bottom: 0.9rem;
+  margin-left: 0.9rem;
+  margin-right: 0.9rem;
+  border-radius: 6px;
+  border-bottom: #2c3e50 0.35rem solid;
+}
+.fa-star{
+  font-size: 3.2rem;
+}
+
+/* ******************************************************************* */
+/* ************************** SEZIONE START *************************+ */
+/* ******************************************************************* */
+.startBootstrap{
+  background-color: #1abc9c;
+  color: white;
+  text-align: center;
+  /* debug */
+  margin-top: 55px;
+  /* fine debug */
+  padding-top: 9.5rem;
+  padding-bottom: 9rem;
+}
+
+.startBootstrap h1{
+  font-size: 6.4rem;
+}
+
+.startBootstrap img {
+  margin: auto;
+  padding-bottom: 1.9rem;
+  width: 24rem;
+}
+
+.startBootstrap p {
+  font-size: 2.3rem;
+}
+/* ******************************************************************* */
+/* ************************** PORTFOLIO *************************+ */
+/* ******************************************************************* */
+
+.portfolio{
+  color: #2c3e50;
+  text-align: center;
+  padding-top: 7rem;
+  padding-bottom: 9rem;
+}
+
+.portfolio h1{
+  font-size: 4.5rem;
+}
+
+.portfolio img {
+  margin: auto;
+  width: 35rem;
+  margin-bottom: 4rem;
+  border-radius: 1rem;
+}
+
+/* ************************************************************ */
+/********************** AGGIUNTA DI MEDIAQUERY ******************/
+/* ************************************************************ */
+@media all and (max-width: 768px){
+  .startBootstrap h1{
+    font-size: 4.4rem;
+  }
+
+  .portfolio h1{
+    font-size: 3.5rem;
+  }
+
+}
+@media all and (min-width: 768px) and (max-width: 992px){
+  .startBootstrap h1{
+    font-size: 4.4rem;
+  }
+
+  .portfolio h1{
+    font-size: 3.5rem;
+  }
+
+}
+
+@media all and (min-width: 992px){
+
+}
