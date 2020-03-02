@@ -223,8 +223,11 @@ e è dopo gli altri  altrimenti css sovrascriverebbe*/
 }
 
 .sezioniFooter a {
-  text-decoration: none;
   color: #1abc9c;
+}
+.sezioniFooter a:hover {
+  color: #117964;
+  text-decoration: underline;
 }
 
 .sezioniFooter h3 {
@@ -246,7 +249,7 @@ e è dopo gli altri  altrimenti css sovrascriverebbe*/
   body {
     padding-top: 74px;
   }
-  
+
   /* gestisco la navbar a quest misura di schermo */
   .navbar {
     height: 74px;
