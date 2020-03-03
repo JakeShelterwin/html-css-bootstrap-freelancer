@@ -17,32 +17,33 @@
     <body>
       <!-- l'header contiene la navbar -->
       <header>
+        <!-- il componente di bootstrap è la navbar -->
         <nav class="navbar navbar-default navbar-fixed-top">
           <div class="container">
 
+            <!-- comportamento di alcuni elementi di navbar per gli schermi piccoli -->
             <div class="schermoPiccolo">
               <div class="row">
                 <div class="col-xs-6 col-md-4">
                   <p><a href="#">START BOOTSTRAP</a></p>
                 </div>
                 <div class="col-xs-3 col-xs-offset-3 col-md-4 col-md-offset-4">
-
-                      <input type="checkbox" id="menuAScomparsa">
-                      <!-- il for richiede un id -->
-                      <!-- Il tag label definisce un testo da associare ad un campo di un form HTML, in altre
-                      parole rende quel testo cliccabile come si cliccasse sul checkbox -->
-                      <label for="menuAScomparsa">Menu <i class="fas fa-bars"></i></label>
-                      <div class="nascondino">
-                        <ul>
-                          <li><a href="#portfolio">PORTFOLIO</a></li>
-                          <li><a href="#about">ABOUT</a></li>
-                          <li><a href="#contactMe">CONTACT</a></li>
-                        </ul>
-                      </div>
+                    <input type="checkbox" id="menuAScomparsa">
+                    <!-- il for richiede un id -->
+                    <!-- Il tag label definisce un testo da associare ad un campo di un form HTML, in altre
+                    parole rende quel testo cliccabile come si cliccasse sul checkbox -->
+                    <label for="menuAScomparsa">Menu <i class="fas fa-bars"></i></label>
+                    <div class="nascondino">
+                      <ul>
+                        <li><a href="#portfolio">	&nbsp;&nbsp; PORTFOLIO</a></li>
+                        <li><a href="#about">	&nbsp;&nbsp; ABOUT</a></li>
+                        <li><a href="#contactMe">	&nbsp;&nbsp; CONTACT</a></li>
+                      </ul>
+                    </div>
                 </div>
               </div>
             </div>
-
+            <!-- comportamento di alcuni elementi di navbar per gli schermi grandi -->
             <div class="schermoGrande">
               <div class="row">
                 <div class="col-xs-6 col-md-4">
@@ -58,10 +59,10 @@
               </div>
             </div>
 
-
           </div>
         </nav>
       </header>
+
       <!-- sezione startBootstrap -->
       <section class="startBootstrap">
         <div class="container">
@@ -79,6 +80,7 @@
           </div>
         </div>
 
+      <!-- sezione Portfolio -->
       </section>
       <section id="portfolio">
         <div class="container">
@@ -116,6 +118,7 @@
           </div>
       </section>
 
+      <!-- sezione About -->
       <section id="about">
         <div class="container">
           <div class="row">
@@ -143,11 +146,12 @@
                 <button type="button" name="freeDownload"><i class="fas fa-download mr-2"></i> 	&nbsp;&nbsp;Free Download!</button>
               </div>
             </div>
-
           </div>
         </div>
 
       </section>
+
+      <!-- sezione ContactMe -->
       <section id="contactMe">
         <div class="container">
           <div class="row">
@@ -183,7 +187,9 @@
         </div>
       </section>
 
+      <!-- Footer -->
       <footer>
+        <!-- sezione Footer con 4 colonne -->
         <section class="sezioniFooter">
           <div class="container">
             <div class="row">
@@ -204,8 +210,9 @@
               </div>
             </div>
           </div>
-
         </section>
+
+        <!-- sezione copyright del footer -->
         <section class="copyright">
           <div class="container">
             <div class="row">
@@ -215,6 +222,7 @@
             </div>
           </div>
         </section>
+
       </footer>
 
     </body>
