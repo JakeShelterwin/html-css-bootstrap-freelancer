@@ -49,6 +49,34 @@
   color: white;
 }
 
+.schermoPiccolo label {
+  padding-top: 1.3rem;
+  display: inline-block;
+  font-size: 1.7rem;
+}
+
+/* GESTISCE L'EFFETTO A SCOMPARSA DEL MENU A HAMBURGER SENZA JS */
+
+/* nasconde l'iconcina della checkbox */
+input[type=checkbox]{
+  /* meglio di visibility o opacity perché display none la toglia dal flusso */
+    display: none;
+}
+
+/* nasconde dal flusso l'elemento con la classe nascondino */
+.nascondino{
+    display: none;
+    padding-top: 14px;
+    background-color: #2c3e50;
+}
+
+/* ~ Selettore CSS che seleziona ogni elemento con la classe .nascondino SOLO SE è fratello diretto di un elemento input di tipo checkbox che ANCHE è checked*/
+input[type=checkbox]:checked ~ .nascondino{
+    display: block;
+}
+/* FINE EFFETTO A SCOMPARSA DEL MENU A HAMBURGER */
+
+
 /* ******************************************************************* */
 /* ************************** ROBE GENERALI *************************+ */
 /* ******************************************************************* */
@@ -245,6 +273,7 @@ e è dopo gli altri  altrimenti css sovrascriverebbe*/
 /* ************************************************************ */
 /********************** AGGIUNTA DI MEDIAQUERY ******************/
 /* ************************************************************ */
+
 @media all and (max-width: 768px){
   body {
     padding-top: 74px;
@@ -255,21 +284,16 @@ e è dopo gli altri  altrimenti css sovrascriverebbe*/
     height: 74px;
   }
 
+/* INIZIO GESTIONE della scritta start bootstrap della navbar */
   .navbar p {
     padding-top: 1rem;
   }
 
   .navbar p a {
-    padding-top: 1rem;
     font-size: 1.9rem;
   }
+/* FINE GESTIONE della scritta start bootstrap della navbar */
 
-  .navbar ul li {
-    padding-top: 1rem;
-    display: inline-block;
-    font-size: 1.6rem;
-  }
-  
   .schermoGrande{
     display: none;
   }
@@ -307,20 +331,15 @@ e è dopo gli altri  altrimenti css sovrascriverebbe*/
     height: 74px;
   }
 
-  .navbar p {
-    padding-top: 1rem;
-  }
+  /* INIZIO GESTIONE della scritta start bootstrap della navbar */
+    .navbar p {
+      padding-top: 1rem;
+    }
 
-  .navbar p a {
-    padding-top: 1rem;
-    font-size: 1.9rem;
-  }
-
-  .navbar ul li {
-    padding-top: 1rem;
-    display: inline-block;
-    font-size: 1.6rem;
-  }
+    .navbar p a {
+      font-size: 1.9rem;
+    }
+  /* FINE GESTIONE della scritta start bootstrap della navbar */
 
   .schermoGrande{
     display: none;
