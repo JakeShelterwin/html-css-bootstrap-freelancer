@@ -328,11 +328,12 @@ e è dopo gli altri  altrimenti css sovrascriverebbe*/
   }
 }
 
-@media all and (min-width: 1200px)){
+@media all and (min-width: 1200px){
   #portfolio img {
     margin: auto;
     width: 35rem;
     margin-bottom: 4rem;
     border-radius: 1rem;
   }
+
 }
